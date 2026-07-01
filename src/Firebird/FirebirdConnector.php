@@ -61,7 +61,6 @@ class FirebirdConnector implements ConnectorInterface
                         F.RDB\$FIELD_TYPE AS TYPE_ID,
                         F.RDB\$FIELD_LENGTH AS LENGTH,
                         F.RDB\$FIELD_SCALE AS SCALE,
-                        F.RDB\$FIELD_PRECISION AS PRECISION,
                         RF.RDB\$NULL_FLAG AS NULL_FLAG,
                         RF.RDB\$DEFAULT_VALUE AS DEFAULT_VALUE
                    FROM RDB\$RELATION_FIELDS RF
